@@ -31,12 +31,16 @@ Each skill teaches an AI assistant how to perform a specific Yuque workflow: sea
 ### Claude Code
 
 ```bash
-# Option 1: Register as a plugin marketplace, then browse and install
-/plugin marketplace add chen201724/yuque-skills
-
-# Option 2: Clone locally and use directly
+# Clone the repo
 git clone https://github.com/chen201724/yuque-skills.git
-# Skills will be auto-discovered from SKILL.md files in your project
+
+# Copy the skill you need into your project's .claude/skills/ directory
+cp -r yuque-skills/skills/smart-search .claude/skills/
+```
+
+Or simply tell Claude Code to read the SKILL.md file:
+```
+> Read /path/to/yuque-skills/skills/smart-search/SKILL.md and follow it
 ```
 
 ### Cursor / Other Tools

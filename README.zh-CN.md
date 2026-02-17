@@ -31,12 +31,16 @@
 ### Claude Code
 
 ```bash
-# 方式 1：注册为插件市场，然后浏览安装
-/plugin marketplace add chen201724/yuque-skills
-
-# 方式 2：克隆到本地直接使用
+# 克隆仓库
 git clone https://github.com/chen201724/yuque-skills.git
-# Claude Code 会自动发现项目中的 SKILL.md 文件
+
+# 将需要的 skill 复制到项目的 .claude/skills/ 目录
+cp -r yuque-skills/skills/smart-search .claude/skills/
+```
+
+或者直接让 Claude Code 读取 SKILL.md：
+```
+> 读取 /path/to/yuque-skills/skills/smart-search/SKILL.md 并按照指令执行
 ```
 
 ### Cursor / 其他工具
