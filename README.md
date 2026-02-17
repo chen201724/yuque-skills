@@ -50,8 +50,8 @@ Replace `smart-search` with any skill name from the table above.
 
 ## Related
 
+- [Yuque AI Ecosystem](https://chen201724.github.io/yuque-ecosystem/) — Website
 - [yuque-mcp](https://github.com/chen201724/yuque-mcp-server) — MCP server for Yuque
-- [yuque-ecosystem](https://chen201724.github.io/yuque-ecosystem/) — Yuque AI ecosystem website
 
 ## License
 

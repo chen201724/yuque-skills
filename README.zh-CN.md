@@ -50,8 +50,8 @@ cp -r yuque-skills/skills/smart-search /path/to/your/skills/
 
 ## 相关项目
 
+- [语雀 AI 生态官网](https://chen201724.github.io/yuque-ecosystem/) — 官网
 - [yuque-mcp](https://github.com/chen201724/yuque-mcp-server) — 语雀 MCP 服务
-- [yuque-ecosystem](https://chen201724.github.io/yuque-ecosystem/) — 语雀 AI 生态官网
 
 ## 许可证
 
